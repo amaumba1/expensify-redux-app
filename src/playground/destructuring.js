@@ -33,6 +33,10 @@
 
 const address = ['1432 Crested Butte Way', 'Texas','Austin','78728']
 
+//onsole.log(`You are in ${address[1]} ${address[2]}`)
+
+// you can use destructure to perform above operation
+
 const [street, city, state, zip] = address
 
 console.log(`You are in ${city} ${state}`)
