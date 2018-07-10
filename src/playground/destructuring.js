@@ -19,14 +19,20 @@
 //     console.log(`It's ${temprature} in ${city}`)
 // }
 
-const book = { 
-    title: 'Ego is the Enemy',
-    author: 'Ryan Holiday',
-    publisher: {
-        name: 'Penguin'
-    }
-}
+// const book = { 
+//     title: 'Ego is the Enemy',
+//     author: 'Ryan Holiday',
+//     publisher: {
+//         name: 'Penguin'
+//     }
+// }
 
-const { name: publisherName = 'Self-Published' } = book.publisher; 
+// const { name: publisherName = 'Self-Published' } = book.publisher; 
 
-console.log(publisherName)
+// console.log(publisherName)
+
+const address = ['1432 Crested Butte Way', 'Texas','Austin','78728']
+
+const [street, city, state, zip] = address
+
+console.log(`You are in ${city} ${state}`)
