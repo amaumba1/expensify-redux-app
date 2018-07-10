@@ -58,9 +58,16 @@
 //console.log(`You are in ${state}`)
 
 
-const address = ['1432 Crested Butte Way', 'Texas','Austin','78728']
+// const address = ['1432 Crested Butte Way', 'Texas','Austin','78728']
 
 
-const [street, city, state, zip] = address
+// const [street, city, state, zip] = address
 
-console.log(`You are in ${city} ${state}`)
+// console.log(`You are in ${city} ${state}`)
+
+const item = ['Coffee (hot)', '$2.00', '$2.50', '$2.75']
+
+const [itemName, , mediumPrice] = item
+// grab first and third items using array destructuring 
+
+console.log(`A medium ${itemName} cost ${mediumPrice}`)
