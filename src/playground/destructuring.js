@@ -31,11 +31,35 @@
 
 // console.log(publisherName)
 
-const address = ['1432 Crested Butte Way', 'Texas','Austin','78728']
+//const address = ['1432 Crested Butte Way', 'Texas','Austin','78728']
 
 //onsole.log(`You are in ${address[1]} ${address[2]}`)
 
 // you can use destructure to perform above operation
+
+//const [street, city, state, zip] = address
+
+//console.log(`You are in ${city} ${state}`)
+
+// you can destructure just what you need in the arrary but keep the comma for the first value and middle values. 
+
+// example 
+
+//const [, , state ] = address; 
+
+//console.log(`You are in ${state}`)
+
+// You can also set a default name
+
+//const address = []
+
+//const [, , state = 'Arkansas'] = address; 
+
+//console.log(`You are in ${state}`)
+
+
+const address = ['1432 Crested Butte Way', 'Texas','Austin','78728']
+
 
 const [street, city, state, zip] = address
 
