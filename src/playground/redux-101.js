@@ -100,8 +100,6 @@ store.dispatch({
 })
 
 
-
-
 // example of destructuring function
 
 // const add = (data) => {
